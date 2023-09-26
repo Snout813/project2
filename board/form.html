@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" mehtod="get">
+        <label for="text">텍스트 입력:</label>
+        <input type="text" id="text_input" name="text" required><br>
+
+        <label for="radio">Man</label>
+        <input type="radio" id="Man" name="group" required><br>
+        <label for="radio">Woman</label>
+        <input type="radio" id="Woman" name="group" required><br>
+
+        <label for="checkbox">정보 동의</label>
+        <input type="checkbox" id="information_agree" name ="agree" required><br>
+
+        <select name="order" required>
+                <option value="option1">아메리카노</option>
+                <option value="option2">카페 라떼</option>
+                <option value="option3">카페 모카</option>
+                <option value="option4">카라멜 마끼야또</option>
+        </select><br>
+
+        <label for="date">날짜 선택: </label>
+        <input type="date" id="date" name="date" required><br>
+
+        <input list ="list" name ="list">
+        <datalist id="list">
+            <option value="전산전자공학부"></option>
+            <option value="국제어문학부"></option>
+            <option value="상담심리사회복지학부"></option>
+        </datalist><br>
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
